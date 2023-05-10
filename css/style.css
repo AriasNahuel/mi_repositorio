@@ -77,11 +77,12 @@ section {
 .centrar iframe{
     margin: 50px 0px 50px 50px;
 }
-body header nav ul li h1 a {
+body header nav div ul li h1 {
     font-family: 'Sedgwick Ave Display';
-    font-size: 25px;
+    font-size: 27px;
+    color: white;
 }
-body header nav ul li a {
+body header nav div ul li a {
     font-family: 'Noto Sans';
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -162,9 +163,40 @@ input[type="submit"] {
 input[type="file"] {
     padding: 1px 2px;
 }
-/*-----------------Flexbox-----------------
+/*-----------------Flexbox-----------------*/
 .contenedorFlexbox{
     display: flex;
     justify-content: space-around;
-}*/
+    font-family: 'Noto Sans';
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 0;
+    
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 90%;
+    margin: auto;
+}
+.title{
+    display: flex;
+    justify-content: flex-start;
+}
+.redesFlex{
+    align-items: flex-end;
+}
+/*-----------------Grid-----------------*/
+.gridContainer{
+    display: grid;
+    margin: 0px;    
+    column-gap: 20px;
+}
+.gridItems{
+    border: solid 2px rgb(85, 47, 47);
+    background-color: rgb(126, 126, 126);
+    padding: 20px;
+}
+
 
