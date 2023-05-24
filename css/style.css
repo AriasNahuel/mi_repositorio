@@ -149,15 +149,6 @@ input[type="file"] {
     padding: 1px 2px;
 }
 /*-----------------Flexbox-----------------*/
-.contenedorFlexbox{
-    display: flex;
-    justify-content: space-around;
-    font-family: 'Noto Sans';
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    padding: 0;
-    
-}
 .home{
     display: flex;
     flex-wrap: wrap;
