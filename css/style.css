@@ -86,7 +86,7 @@ body {
     color: rgb(0, 0, 0);
     font-family: 'Noto Sans';
 }
-h1, p {
+p {
     margin: 1em auto;
 }
 body main section ul li{
@@ -182,7 +182,4 @@ input[type="file"] {
     border: solid 2px rgb(85, 47, 47);
     background-color: rgb(126, 126, 126);
     padding: 20px;
-}
-.responsive{
-    width: 90%;
 }
