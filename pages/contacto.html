@@ -11,45 +11,43 @@
 <body>
     <header>
         <h1>NavTokyo</h1>
-        <nav>
-            <div>
-                <ul>                    
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./destinos.html">Destinos</a></li>
-                    <li><a href="./historia.html">Historia</a></li>
-                    <li><a href="./acercadenosotros.html">Acerca de nosotros</a></li>
-                    <li><a href="./contacto.html">Registrarse</a></li> 
-                </ul>                
-            </div>                
+        <nav>            
+            <ul>                    
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./destinos.html">Destinos</a></li>
+                <li><a href="./historia.html">Historia</a></li>
+                <li><a href="./acercadenosotros.html">Acerca de nosotros</a></li>
+                <li><a href="./contacto.html">Registrarse</a></li> 
+            </ul>                                        
         </nav>
     </header>
     <main class="contacto">
-        <h1>Regístrate!</h1>
+        <h2>Regístrate!</h2>
         <p>Por favor, complete todo los campos para finalizar el proceso de registro</p>
         <form method="post" action='https://register-demo.freecodecamp.org'>
-        <fieldset>
-            <label for="first-name">Ingrese su nombre: <input id="first-name" name="first-name" type="text" required /></label>
-            <label for="last-name">Ingrese su apellido: <input id="last-name" name="last-name" type="text" required /></label>
-            <label for="email">Ingrese su correo electrónico: <input id="email" name="email" type="email" required /></label>
-            <label for="new-password">Cree una nueva contraseña: <input id="new-password" name="new-password" type="password"  required /></label>
-        </fieldset>
-        <fieldset>
-            <label for="generocuenta">Escoja su género:</label>
-            <label for="generoCuenta"><input id="masculino" type="radio" name="account-type" class="inline" />  Masculino</label>
-            <label for="generoCuenta"><input id="femenino" type="radio" name="account-type" class="inline" />   Femenino</label>
-            <label for="generoCuenta"><input id="otro" type="radio" name="account-type" class="inline" />    Otro</label>
-        </fieldset>
-        <fieldset>
-            <label for="fotoPerfil">Suba una foto de perfil: <input id="fotoPerfil" type="file" name="imagen" /></label>
-            <label for="edad">Indique su edad (años): <input id="edad" type="number" name="edad" min="13" max="120" /></label>
-            <label for="bio">Redacte una biografía: <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Me gusta la cultura japonesa..."></textarea></label>
-        </fieldset>
-        <fieldset>
-            <label for="terminosYCondiciones">
-                <input id="terminosYCondiciones" type="checkbox" required name="terminosYCondiciones" class="inline" /> Acepto los <a href="">Términos y Condiciones</a>
-            </label>
-        </fieldset>
-        <input type="submit" value="Enviar" />
+            <fieldset>
+                <label for="first-name">Ingrese su nombre: <input id="first-name" name="first-name" type="text" required /></label>
+                <label for="last-name">Ingrese su apellido: <input id="last-name" name="last-name" type="text" required /></label>
+                <label for="email">Ingrese su correo electrónico: <input id="email" name="email" type="email" required /></label>
+                <label for="new-password">Cree una nueva contraseña: <input id="new-password" name="new-password" type="password"  required /></label>
+            </fieldset>
+            <fieldset>
+                <label for="generocuenta">Escoja su género:</label>
+                <label for="generoCuenta"><input id="masculino" type="radio" name="account-type" class="inline" />  Masculino</label>
+                <label for="generoCuenta"><input id="femenino" type="radio" name="account-type" class="inline" />   Femenino</label>
+                <label for="generoCuenta"><input id="otro" type="radio" name="account-type" class="inline" />    Otro</label>
+            </fieldset>
+            <fieldset>
+                <label for="fotoPerfil">Suba una foto de perfil: <input id="fotoPerfil" type="file" name="imagen" /></label>
+                <label for="edad">Indique su edad (años): <input id="edad" type="number" name="edad" min="13" max="120" /></label>
+                <label for="bio">Redacte una biografía: <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Me gusta la cultura japonesa..."></textarea></label>
+            </fieldset>
+            <fieldset>
+                <label for="terminosYCondiciones">
+                    <input id="terminosYCondiciones" type="checkbox" required name="terminosYCondiciones" class="inline" /> Acepto los <a href="">Términos y Condiciones</a>
+                </label>
+            </fieldset>
+            <input type="submit" value="Enviar" />
         </form>
     </main>
     <footer>

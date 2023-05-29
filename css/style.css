@@ -4,10 +4,6 @@
     padding: 0;
 }
 
-body{
-    display: grid;
-}
-
 /*-------HEADER-------*/
 header{
     background-color: rgb(134, 29, 29);
@@ -17,11 +13,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 70px;
-    padding: 5px;
+    
+    padding: 15px;
 }
 header nav ul{
-    margin: 10px;
     display: flex;
 }
 header nav ul li{
@@ -46,14 +41,33 @@ header h1{
 main{
     background-color: rgb(255, 255, 255);
     font-family: 'Noto Sans';
-    /*display: flex;
-    justify-content: space-between;*/
+    display: flex;
+    flex-direction: column;
+}
+main form{
+    display: flex;
+    flex-direction: column;
+}
+main form input{
+    align-items: center;
 }
 main h2{
     font-size: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+main p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+main section ul div{
+    display: flex;    
+}
+main section ul div img{
+    justify-content: center;
 }
 .hero p{
-    margin: 0px 10px;
+    margin: 0;
     font-size: 15px;
     padding: 530px 0px 0px 0px;
 }
@@ -70,9 +84,12 @@ footer div a{
 }
 .hero{
     background-image: url(../img/Fondo.jpg);
-    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 550px;
+    width: 100%;
     color: rgb(255, 255, 255);
     font-family: 'Noto Sans';
     justify-content: flex-start;    
@@ -206,6 +223,7 @@ input[type="file"] {
 .containerImg .boxImg:nth-child(4){
     grid-row-start: span 2;
 }
+/*------------Media query------------*/
 @media screen and (max-width:800px){
     .containerImg{
         width: 95%;
@@ -224,5 +242,17 @@ input[type="file"] {
     }
     .containerImg .boxImg img{
         height: 200px;
+    }
+}
+@media screen and (max-width: 450px){
+    header nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 700px){
+    header {
+        flex-direction: column;
+        position: static;
     }
 }
