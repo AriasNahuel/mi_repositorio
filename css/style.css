@@ -98,18 +98,27 @@ section {
     color: rgb(0, 0, 0);
     font-family: 'Noto Sans';
 }
+.centrar{
+    display: flex;
+    flex-direction: column;
+}
 .centrar p{
     margin: 50px 50px 0px 50px;
     font-size: 16px;
     text-align: justify;
+    justify-content: center;
 }
 .centrar li{
     margin: 0px 50px 0px 50px;
     font-size: 15px;
 }
-.centrar iframe{
-    margin: 50px 0px 50px 50px;
+.home{
+    display: flex;
 }
+.centrar iframe{
+    justify-content: center;       
+}
+
 /*----------------------------Nuevo-----------------------------*/
 body {
     width: 100%;
