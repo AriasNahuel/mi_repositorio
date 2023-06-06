@@ -1,0 +1,33 @@
+header{
+    background-color: rgb(134, 29, 29);
+    color: rgb(255, 255, 255);
+    position: sticky; 
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 15px;
+    h1{
+        font-family: 'Sedgwick Ave Display';
+        font-size: 40px;
+        margin: 10px;
+    }
+    nav{
+        ul{
+            display: flex;
+            li{
+                margin: 18px 5px 18px 5px;
+                font-size: 15px;
+                font-family: 'Noto Sans';   
+                list-style: none;/*Ordena los elementos de la lista en una fila*/
+                a{
+                    text-decoration: none;/*Le quita las líneas inferiores a los textos por haber entrado previamente.*/
+                    color: white;
+                    &:hover{                        
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+}

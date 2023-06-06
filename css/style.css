@@ -5,7 +5,7 @@
 }
 
 /*-------HEADER-------*/
-header{
+header{/*copiado*/
     background-color: rgb(134, 29, 29);
     color: rgb(255, 255, 255);
     position: sticky; 
@@ -16,73 +16,77 @@ header{
     
     padding: 15px;
 }
-header nav ul{
+header nav ul{/*copiado*/
     display: flex;
 }
-header nav ul li{
+header nav ul li{/*copiado*/
     margin: 18px 5px 18px 5px;
     font-size: 15px;
     font-family: 'Noto Sans';    
 }
-header nav ul li a{
+header nav ul li a{/*copiado*/
     text-decoration: none;
     color: white;
 }/*Le quita las líneas inferiores a los textos por haber entrado previamente.*/
-header nav ul li{
+header nav ul li{/*copiado*/
     list-style: none;
 }/*Ordena los elementos de la lista en una fila*/
-header h1{    
+header h1{/*copiado*/    
     font-family: 'Sedgwick Ave Display';
     font-size: 40px;
     margin: 10px;
 }
+header nav ul li a:hover{/*copiado*/
+    text-decoration: none;
+    color: black;
+}
 
 /*-------MAIN-------*/
-main{
+main{/*copiado*/
     background-color: rgb(255, 255, 255);
     font-family: 'Noto Sans';
     display: flex;
     flex-direction: column;
 }
-main form{
+main form{/*copiado*/
     display: flex;
     flex-direction: column;
 }
-main form input{
+main form input{/*copiado*/
     align-items: center;
 }
-main h2{
+main h2{/*copiado*/
     font-size: 25px;
     margin-left: 20px;
     margin-top: 20px;
 }
-main p{
+main p{/*copiado*/
     margin-left: 20px;
     margin-top: 20px;
 }
-main section ul div{
+main section ul div{/*copiado*/
     display: flex;    
 }
-main section ul div img{
+main section ul div img{/*copiado*/
     justify-content: center;
 }
-.hero p{
+.hero p{/*copiado*/
     margin: 0;
     font-size: 15px;
     padding: 530px 0px 0px 0px;
 }
 /*-------FOOTER--------*/
-footer{
+footer{/*copiado*/
     background-color: rgb(255, 255, 255);
     font-family: 'Noto Sans';
     display: flex;
     justify-content: center;
     margin: 10px;
 }
-footer div a{
+footer div a{/*copiado*/
     margin: 5px;
 }
-.hero{
+.hero{/*copiado*/
     background-image: url(../img/Fondo.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -98,11 +102,11 @@ section {
     color: rgb(0, 0, 0);
     font-family: 'Noto Sans';
 }
-.centrar{
+.centrar{/*copiado*/
     display: flex;
     flex-direction: column;
 }
-.centrar p{
+.centrar p{/*copiado*/
     margin: 50px 50px 0px 50px;
     font-size: 16px;
     text-align: justify;
@@ -115,31 +119,31 @@ section {
 .home{
     display: flex;
 }
-.centrar iframe{
+.centrar iframe{/*copiado*/
     justify-content: center;       
 }
 
 /*----------------------------Nuevo-----------------------------*/
-body {
+body {/*copiado*/
     width: 100%;
     height: 100vh;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-family: 'Noto Sans';
 }
-p {
+p {/*copiado*/
     margin: 1em auto;
 }
-body main section ul li{
+body main section ul li{/*copiado*/
     font-size: 20px;
 }
-body main section ul p{
+body main section ul p{/*copiado*/
     text-align:justify;
 }
-body main section ul div{
+body main section ul div{/*copiado*/
     padding: 10px;
 }
-body main section ol li{
+body main section ol li{/*copiado*/
     font-size: 16px;
     font-family: 'Noto Sans';
 }
@@ -206,7 +210,7 @@ input[type="file"] {
 }
 
 /*------------Galería Grid------------*/
-.containerImg{
+.containerImg{/*copiado*/
     width: 100%;
     max-width: 1100px;
     margin: auto;
@@ -217,49 +221,49 @@ input[type="file"] {
     grid-template-rows: 250px;
     grid-gap: 20px;
 }
-.containerImg .boxImg figure{
+.containerImg .boxImg figure{/*copiado*/
     width: 100%;
     height: 100%;
 }
-.containerImg .boxImg img{
+.containerImg .boxImg img{/*copiado*/
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.containerImg .boxImg:nth-child(1){
+.containerImg .boxImg:nth-child(1){/*copiado*/
     grid-column-start: span 2;
 }
-.containerImg .boxImg:nth-child(4){
+.containerImg .boxImg:nth-child(4){/*copiado*/
     grid-row-start: span 2;
 }
 /*------------Media query------------*/
-@media screen and (max-width:800px){
+@media screen and (max-width:800px){/*copiado*/
     .containerImg{
         width: 95%;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
         grid-template-rows: 200px;
     }
-    .containerImg .boxImg:nth-child(1){
+    .containerImg .boxImg:nth-child(1){/*copiado*/
         grid-column-start: span 1;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:500px){/*copiado*/
     .containerImg{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
     }
-    .containerImg .boxImg img{
+    .containerImg .boxImg img{/*copiado*/
         height: 200px;
     }
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 450px){/*copiado*/
     header nav ul {
         flex-direction: column;
         text-align: center;
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 700px){/*copiado*/
     header {
         flex-direction: column;
         position: static;
