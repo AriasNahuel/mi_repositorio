@@ -236,6 +236,9 @@ input[type="file"] {
 .containerImg .boxImg:nth-child(4){/*copiado*/
     grid-row-start: span 2;
 }
+.containerMap{
+    padding: 10px;
+}
 /*------------Media query------------*/
 @media screen and (max-width:800px){/*copiado*/
     .containerImg{
@@ -267,5 +270,31 @@ input[type="file"] {
     header {
         flex-direction: column;
         position: static;
+    }
+}
+@media screen and (max-width:800px){/*copiado*/
+    .containerElement{
+        width: 95%;
+        display: flex;
+        justify-content: center;
+    }
+    .containerElement img{/*copiado*/        
+        height: 380px;
+        width: 550px;
+    }
+}
+@media screen and (max-width:500px){/*copiado*/
+    .containerElement{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+    .containerElement iframe{/*copiado*/        
+        height: 250px;
+        width: 350px;
+    }
+    .containerElement img{/*copiado*/        
+        height: 250px;
+        width: 350px;
     }
 }
