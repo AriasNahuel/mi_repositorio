@@ -12,9 +12,8 @@ header{/*copiado*/
     top: 0px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
-    padding: 15px;
+    align-items: center;    
+    padding: 15px;    
 }
 header nav ul{/*copiado*/
     display: flex;
@@ -22,7 +21,12 @@ header nav ul{/*copiado*/
 header nav ul li{/*copiado*/
     margin: 18px 5px 18px 5px;
     font-size: 15px;
-    font-family: 'Noto Sans';    
+    font-family: 'Noto Sans';
+}
+header nav ul:hover{
+        background-color: rgb(125, 41, 41);
+        color: black;
+        transition: 3s ease;
 }
 header nav ul li a{/*copiado*/
     text-decoration: none;
@@ -38,7 +42,7 @@ header h1{/*copiado*/
 }
 header nav ul li a:hover{/*copiado*/
     text-decoration: none;
-    color: black;
+    color: rgb(0, 185, 195);
 }
 
 /*-------MAIN-------*/
@@ -81,6 +85,7 @@ footer{/*copiado*/
     font-family: 'Noto Sans';
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 10px;
 }
 footer div a{/*copiado*/
@@ -208,6 +213,9 @@ input[type="file"] {
 .redesFlex{
     align-items: flex-end;
 }
+.gradienteHeader{
+    background-image: linear-gradient(to right, rgb(177, 18, 18),rgb(77, 3, 3));
+}
 
 /*------------Galería Grid------------*/
 .containerImg{/*copiado*/
@@ -263,7 +271,7 @@ input[type="file"] {
 @media screen and (max-width: 450px){/*copiado*/
     header nav ul {
         flex-direction: column;
-        text-align: center;
+        text-align: center;                       
     }
 }
 @media screen and (max-width: 700px){/*copiado*/
