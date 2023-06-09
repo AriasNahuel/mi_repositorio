@@ -7,19 +7,26 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     
-    <title>NavTokyo</title>
+    <title class="tituloNav">NavTokyo</title>
 </head>
 <body>
-    <header class="headerFlex gradienteHeader">
-        <h1>NavTokyo</h1>
-        <nav>            
-            <ul class="listaFlex">                    
-                <li class="btn"><a href="../index.html">Inicio</a></li>
-                <li class="btn"><a href="./destinos.html">Destinos</a></li>
-                <li class="btn"><a href="./historia.html">Historia</a></li>
-                <li class="btn"><a href="./acercadenosotros.html">Acerca de nosotros</a></li>
-                <li class="btn"><a href="./contacto.html">Registrarse</a></li> 
-            </ul>                                        
+    <input type="checkbox" id="toggle">
+    <header class="gradienteHeader">
+        
+        <nav class="gradienteHeader">                       
+            <h1 class="navbar-brand">NavTokyo</h1>
+            <label class="navbar-toggler" for="toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="nav-list">                   
+                <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="./destinos.html">Destinos</a></li>
+                <li class="nav-item"><a class="nav-link" href="./historia.html">Historia</a></li>
+                <li class="nav-item"><a class="nav-link" href="./acercadenosotros.html">Acerca de</a></li>
+                <li class="nav-item"><a class="nav-link" href="./contacto.html">Registrarse</a></li>
+            </ul>                    
         </nav>
     </header>
     <main>
