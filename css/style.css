@@ -122,6 +122,7 @@ section {
 .centrar li{
     margin: 0px 50px 0px 50px;
     font-size: 15px;
+    text-align: justify;
 }
 .home{
     display: flex;
@@ -270,19 +271,17 @@ input[type="file"] {
         height: 200px;
     }
 }
-@media screen and (max-width: 450px){/*copiado*/
+@media screen and (max-width: 570px){/*copiado*/
     header nav ul {
         flex-direction: column;
         text-align: center;                       
     }
 }
-@media screen and (max-width: 700px){/*copiado*/
+@media screen and (max-width:800px){/*copiado*/
     header {
         flex-direction: column;
         position: static;
     }
-}
-@media screen and (max-width:800px){/*copiado*/
     .containerElement{
         width: 95%;
         display: flex;
