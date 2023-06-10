@@ -93,6 +93,7 @@ input:checked~header nav .navbar-toggler {
 input:checked~header nav .navbar-toggler .bar:nth-child(1) {
     position: absolute;
     transform: rotate(45deg);
+    margin: -45px 0px 0 0;
 }
 
 input:checked~header nav .navbar-toggler .bar:nth-child(2) {
@@ -101,6 +102,7 @@ input:checked~header nav .navbar-toggler .bar:nth-child(2) {
 
 input:checked~header nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
+    margin: -45px 0px 0 0;
 }
 
 /*main*/
