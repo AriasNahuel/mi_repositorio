@@ -3,6 +3,7 @@ main{
     font-family: 'Noto Sans';
     display: flex;
     flex-direction: column;
+    margin-top: 108px;
     form{
         display: flex;
         flex-direction: column;
@@ -15,58 +16,32 @@ main{
         margin-left: 20px;
         margin-top: 20px;
     }
-    .hero{
-        background-image: url(../img/Fondo.jpg);
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 550px;
-        width: 100%;
-        color: rgb(255, 255, 255);
-        font-family: 'Noto Sans';
-        justify-content: flex-start;   
-        p{
-            margin: 0;
-            font-size: 15px;
-            padding: 530px 0px 0px 0px;
-        }
+    p{
+        margin-left: 20px;
+        margin-top: 20px;
     }
-    .centrar{
-        display: flex;
-        flex-direction: column;
-        p{
-            margin: 50px 50px 0px 50px;
-            font-size: 16px;
-            text-align: justify;
-            justify-content: center;
-        }
-        iframe{
-            justify-content: center;                
-        }
-        
-    }
-    section{
-        ol{
-            li{
-                font-size: 16px;
-                font-family: 'Noto Sans';
+    section {
+        ul {
+            li {
+                font-size: 20px;
             }
-        }
-        ul{
+            p {
+                text-align:justify;
+            }
             div{
-                display: flex;
+                display: flex;  
                 padding: 10px;
                 img{
                     justify-content: center;
-                }
-            } 
-            li{
-                font-size: 20px;
-            }   
-            p{
-                text-align:justify;
-            }            
+                }  
+            }         
+        }
+        ol {
+            li {
+                font-size: 16px;
+    font-family: 'Noto Sans';
+            }
         }
     }
+    
 }

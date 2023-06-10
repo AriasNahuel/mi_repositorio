@@ -3,8 +3,10 @@ footer{
     font-family: 'Noto Sans';
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 10px;
     div{
+        margin-bottom: 30px;
         a{
             margin: 5px;
         }

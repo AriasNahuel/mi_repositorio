@@ -49,7 +49,8 @@ nav .nav-list {
 nav .nav-list .nav-item {
     cursor: pointer;
     height: 100%;
-    padding: 0 20px;    transition: .4s;
+    padding: 0 20px;    
+    transition: .4s;
 }
 
 nav .nav-list .nav-item:hover {
@@ -319,7 +320,6 @@ input[type="file"] {
 
 
 @media (max-width: 962px) {
-    /*navbar*/
     header{
         background-image: linear-gradient(to right, rgb(177, 18, 18),rgb(77, 3, 3));
     }
@@ -337,11 +337,9 @@ input[type="file"] {
         z-index: -1;
         transition: .6s;
     }
-
     nav .nav-list .nav-item {
         padding-left: 35px;
     }
-
     nav .navbar-toggler {
         display: grid !important;
         align-content: center;
@@ -349,14 +347,13 @@ input[type="file"] {
         height: 100%;
         margin: 2px 10px 0 0;
     }
-    /*galery*/
     .containerImg{
         width: 95%;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 10px;
         grid-template-rows: 200px;
     }
-    .containerImg .boxImg:nth-child(1){/*copiado*/
+    .containerImg .boxImg:nth-child(1){
         grid-column-start: span 1;
     }
     main{

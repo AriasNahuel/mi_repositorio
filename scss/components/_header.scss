@@ -1,39 +1,69 @@
+/*-------HEADER-------*/
 header{
     background-color: rgb(134, 29, 29);
     color: rgb(255, 255, 255);
-    position: sticky; 
+    position: fixed; 
+    width: 100%;
     top: 0px;
+    padding: 15px;    
+    z-index: 1000;
+}
+header h1{/*copiado*/    
+    font-family: 'Sedgwick Ave Display';
+    font-size: 40px;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;    
-    padding: 15px;
-    z-index: 10;
-    @include tabletNav {
-        flex-direction: column;
-        position: static;
-    }
-    h1{
-        font-family: 'Sedgwick Ave Display';
-        font-size: 40px;
-        margin: 10px;
-    }
-    nav{
-        ul{
-            
-            display: flex;
-            li{
-                margin: 18px 5px 18px 5px;
-                font-size: 15px;
-                font-family: 'Noto Sans';   
-                list-style: none;/*Ordena los elementos de la lista en una fila*/
-                a{
-                    text-decoration: none;/*Le quita las líneas inferiores a los textos por haber entrado previamente.*/
-                    color: white;
-                    &:hover{                        
-                        color: rgb(37, 0, 248);
-                    }
-                }
-            }
-        }
-    }
+    align-items: center;
+    padding: 1rem 1rem;
+    height: 75px;
+    line-height: 75px;
+    background-color: rgb(134, 29, 29);
+}
+
+nav .navbar-brand {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: .5px;
+}
+
+nav .nav-list {
+    display: flex;
+    list-style: none;
+}
+
+nav .nav-list .nav-item {
+    cursor: pointer;
+    height: 100%;
+    padding: 0 20px;    
+    transition: .4s;
+}
+
+nav .nav-list .nav-item:hover {
+    background: #000000;
+}
+
+nav .nav-list .nav-link {
+    color: #f1f1f1;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+nav .navbar-toggler {
+    display: none;
+    height: min-content;
+    margin: 18px 10px 0 0;
+    cursor: pointer;
+}
+
+nav .navbar-toggler .bar {
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    border-radius: 10%;
+    transition: .4s;
 }
