@@ -3,7 +3,8 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ariasnahuel&label=Profile%20views&color=0e75b6&style=flat" alt="ariasnahuel" /> </p>
 
-- 🔭 I’m currently working on **NavTokyo**
+- 🔭 I’m currently working on my personal proyect **NavTokyo**
+- I work as a software developer at IPernet, maintaining a group of systems, preventing possible errors and adding various features.
 
 <p align="left">
 </p>
